@@ -164,10 +164,10 @@ for instance, for configuring access to a database that an application can use.
 ## Conclusion
 
 To recap, in this lesson, we looked at two components commonly found in Ruby
-applications. The first is the run file, something that acts as the starting
+applications. The is file loads any required
+application files and handles any configuration thafirst is the run file, something that acts as the starting
 point of the application. The second is the `environment.rb` file. Typically loaded
-when an application is started or tests are run, this file loads any required
-application files and handles any configuration that has to happen every time
+when an application is started or tests are run, tht has to happen every time
 the application starts.
 
 Combining the two, we have a multi-file application that is starting to show
